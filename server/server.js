@@ -4,7 +4,8 @@ import cors from 'cors';
 const app = express();
 
 //Middleware
-app.use(cors()); // allows to make requests such as form submissions
+// Configuración CORS para permitir accesos desde cualquier origen (o especificar la IP del cliente)
+app.use(cors({ origin: '*' }));
 app.use(express.json()) //process data to send to the backend
 
 //Routes
