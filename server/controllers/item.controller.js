@@ -80,7 +80,7 @@ export const getItemByCodePatAndUpdate = async (req, res, next) => {
         );
 
         // Log para verificar si la actualización fue exitosa
-        console.log('Resultado de la actualización:', updateResult);
+        // console.log('Resultado de la actualización:', updateResult);
 
         // // Verifica si la actualización afectó alguna fila
         // if (updateResult.affectedRows === 0) {

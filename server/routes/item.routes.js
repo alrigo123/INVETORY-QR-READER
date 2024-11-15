@@ -18,6 +18,7 @@ router.get('/items/filter', searchItemsByWorkerAndDescription) // GET ITEMS BY W
 //GET ITEM BY CODE PATRIMONIAL
 router.put('/items/:id', updateDisposition);
 router.get('/items/:id',getItemByCodePatAndUpdate)
+router.get('/items/status/:id', getItemByCodePat) // GET ITEMS BY PATRIMONIAL CODE 
 // router.get('/items/:id',getItemByCodePat)
 
 //GET QTY ITEMS
